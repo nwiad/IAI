@@ -1,0 +1,16 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ x86_64-macos ]
+flags:           [ not_app_extension_safe ]
+install-name:    '/usr/local/lib/libStrategy.dylib'
+exports:
+  - targets:         [ x86_64-macos ]
+    symbols:         [ __Z10clearArrayiiPPi, __Z10machineWiniiiiPKPi, __Z5buildPPiPKiiiii, 
+                       __Z5isTieiPKi, __Z7userWiniiiiPKPi, __Z9UCTSearchP4Node, __ZN4Node10clearArrayEPi, 
+                       __ZN4Node10clearBoardEPPi, __ZN4Node10isTerminalEv, __ZN4Node10treePolicyEv, 
+                       __ZN4Node13clearChildrenEv, __ZN4Node13defaultPolicyEv, __ZN4Node6backUpEd, 
+                       __ZN4Node6expandEv, __ZN4Node7copyTopEv, __ZN4Node7randomYEPi, 
+                       __ZN4Node8classifyEiiPPiS0_i, __ZN4Node8opponentEi, __ZN4Node9bestChildEv, 
+                       __ZN4Node9copyBoardEv, __ZN4NodeC1EiiPiPS0_iiiiiPS_, __ZN4NodeC2EiiPiPS0_iiiiiPS_, 
+                       __ZN4NodeD1Ev, __ZN4NodeD2Ev, _clearPoint, _getPoint ]
+...
